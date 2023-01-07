@@ -7,3 +7,13 @@ class Father {
     print('masud rana');
   }
 }
+
+class animal {
+  String? name;
+  String? color;
+  int? age;
+
+  void eat() {
+    print('${name} eating');
+  }
+}
