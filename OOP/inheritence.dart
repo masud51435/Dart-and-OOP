@@ -7,7 +7,7 @@ void main(List<String> args) {
   sonObj.name();
 
   //dog
-  var dogs = new Dog();
+  var dogs = new Dog(2);
   dogs.name = 'dog';
   print(dogs.name);
   dogs.color = 'black';
@@ -19,7 +19,7 @@ void main(List<String> args) {
 }
 
 class Son extends Father {
-  //amra caile extends kora item k ene change o krte ba override o krte pari,
+  //amra caile extends kora item k ene change o krte ba override o krte pari,atar parent method er nam jeta atao same e hote hbe, akhn amra jodi duita method kei chai show kraite taile tokhon son method er por super.son method er nam dite hbe.
   @override
   void news(int a, int b) {
     print(a - b + 66);
@@ -28,6 +28,12 @@ class Son extends Father {
 
 //another ex
 class Dog extends animal {
+  int? avilavle;
+  Dog(int n) {
+    this.avilavle = n;
+    print(avilavle);
+  }
+
   void bark() {
     print('dog is barking');
   }
