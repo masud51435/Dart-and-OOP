@@ -2,7 +2,7 @@ import 'dart:collection';
 
 void main(List<String> args) {
   //litarals adding map
-  //map holo js er akdm object er moto 
+  //map holo js er akdm object er moto
 
   var myMap = {'name': 'abul', 'age': 15, 'height': '5 feet 7 inch'};
 
@@ -30,6 +30,15 @@ void main(List<String> args) {
   // print(map.length);
   // map.remove('name');
   // map.clear();
+
+//example
+  Map<int, String> number = Map();
+
+  number[1] = 'one';
+  number[2] = 'two';
+  number[3] = 'three';
+
+  print(number);
 
 /////                hashmap    ////////////
 
