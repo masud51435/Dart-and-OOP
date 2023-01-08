@@ -46,4 +46,4 @@ class Cat extends animal {
   }
 }
 
-//abr kono class er samne jdi amra abstract keyword use taile r oi class er object amra direct use krte pari na, oi class k tokhon onno kono class er maje extends kore use korte parbo sudu
+//abr kono class er samne jdi amra abstract keyword use taile r oi class er object amra direct create krte pari na, oi class k tokhon onno kono class er maje extends kore use korte parbo sudu
