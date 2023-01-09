@@ -7,7 +7,6 @@ void main(List<String> args) {
 }
 
 //another normal function
-
 myNewFunction(String msg, Function summation) {
   print(msg);
   print(summation(4,5));

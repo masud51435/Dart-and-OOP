@@ -1,4 +1,4 @@
-//mixin amra use kori aksathey duita inheritance er khette, amra ususally akta class e extend kore duita inheritance class use krte pari na, seta krar jonno amra mixin use kori, mixin use kre akadik clss o use kora jay parent class hisebe sub class a
+//mixin amra use kori aksathey multiple inheritance er khette, amra ususally akta class e extend kore duita inheritance class use krte pari na, seta krar jonno amra mixin use kori, mixin use kre akadik clss o use kora jay parent class hisebe sub class a
 void main(List<String> args) {
   Doctor value = Doctor();
   value.clockIn();

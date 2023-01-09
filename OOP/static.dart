@@ -3,13 +3,19 @@ void main(List<String> args) {
   newClass.newFunction();
   // newClass.addTwo(); //showError
   MyClass.addTwo();
+ print(MyClass.pi);
 }
 
 class MyClass {
+  //const variable
+  static const double pi = 3.14;
+
+  ///static method
   static void addTwo() {
     print(20 + 22);
   }
 
+  /// normal method
   void newFunction() {
     print('this is new');
     MyClass.addTwo();

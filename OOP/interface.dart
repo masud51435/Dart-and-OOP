@@ -30,6 +30,7 @@ class Car implements Vehicle, Bus {
     print("car is moving");
   }
 
+  @override
   stop() {
     print('car is stop');
   }
@@ -38,4 +39,4 @@ class Car implements Vehicle, Bus {
   going() {
     print('car is going');
   }
-}
+} 
