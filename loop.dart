@@ -68,11 +68,11 @@ void main(List<String> args) {
   List numbers = [23, 34, 35, 90, 32, 54, 64, 643, 54];
 
   for (var i = 0; i < numbers.length; i++) {
-    var nums = numbers[i];
-    if (nums > 100) {
+    var num = numbers[i];
+    if (num > 100) {
       break;
     }
-    print(nums);
+    print(num);
   }
 
   //ex

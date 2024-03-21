@@ -1,8 +1,7 @@
-import 'dart:ffi';
 
 void main(List<String> args) {
   //creating object 1
-  var student1 = new Student();
+  Student student1 = new Student();
   student1.rollNumber = 10;
   student1.name = 'abul';
   print('name ${student1.name} and rollNumber ${student1.rollNumber}');

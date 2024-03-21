@@ -38,7 +38,7 @@ void main(List<String> args) {
 
   //// fixed length list
   ///
-  /////fixed length list a add addall ba remove kora jay na ,error show krbe,agula growable list a add kora jay,akhne list er por jdi tpye bole deya hoy taile oi type item cara onno kono item add kra jbe na , jmn akhne int type cara onno kono value dile nibe na error dibe,jdi akhne list er pore kono type na deya hoy taile jkono tpye value assign kora jbe.
+  //fixed length list a add addall ba remove kora jay na ,error show krbe,agula growable list a add kora jay,akhne list er por jdi tpye bole deya hoy taile oi type item cara onno kono item add kra jbe na , jmn akhne int type cara onno kono value dile nibe na error dibe,jdi akhne list er pore kono type na deya hoy taile jkono tpye value assign kora jbe.
 
   var fixLengthList = List<int>.filled(10, 0, growable: false);
   fixLengthList[0] = 10;

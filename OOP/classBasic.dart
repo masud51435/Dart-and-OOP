@@ -16,4 +16,4 @@ class MyClass {
   void addThree() {}
 }
 
-//class a amra dui dhoroner variable use kore thaki global variable r local variable , class er maje kono function er vitore jdi kono variable use kri seta holo local variable r jdi function ba method er baire use kri setak global variable ba instance variable or field variable bole, glpbal variable k amra oi class er j kono jaygay use krte parbo
+//class a amra dui dhoroner variable use kore thaki global variable r local variable , class er maje kono function er vitore jdi kono variable use kri seta holo local variable r jdi function ba method er baire use kri setak global variable ba instance variable or field variable bole, global variable k amra oi class er j kono jaygay use krte parbo

@@ -20,9 +20,24 @@ void main(List<String> args) {
 /* different between var and dynamic?
    var e amra jdi int type kono value dei taile amra bar bar nutun kre int type value diye ager value change krte pari, but fst e jdi int type data dei taile r pore otate onno kono type data like boolean, string , double dite parbo na, error dibe, but dynamic diye amra jdi fst int type data dei then pore otake jkono type data diye change krte pari, okhne boolean, string, double jai dei sob e accept krbe */
 
-   //final/const or var/dynamic type
+  //final/const or var/dynamic type
 
   //var er jaygay amra final ba const keyword o use krte pari,different holo var diye declare kora value amra caile pore change krte pari but final ba const diye declare kora value amra change krte pari na pore r..abr caile amra var er jaygay dynamic o use krte pari..
+
+  ///string a kothay single quates ' ' and kothaty "" and kothay """ """ use korbo, single quates r double quates same but tripple quates use korba amra multiline string er khette, krn multiline string er khetter single quates ba double quates kaj kore na erros dey;
+
+  String named = 'abdul';
+  /*String names = "ab
+  u
+  l"; (akhne code error disse multiline krar jonno)*/
+
+  String namedd = """
+  a
+  b
+  d
+  u
+  l
+  """; //but akhne disse na error krn akhne tripple quates use kora hoice
 
 // //mathmatical operation
 
@@ -34,8 +49,8 @@ void main(List<String> args) {
   print(allPrice);
   int priceDifferent = orangePrice - onionPrice;
   print(priceDifferent);
-  int allEggPrice = eggPrice * eggQuantity;
-  print(allEggPrice);
+  int PerEggPrice = eggPrice * eggQuantity;
+  print(PerEggPrice);
 
   // short cut
 
@@ -57,7 +72,8 @@ void main(List<String> args) {
   String lastName = 'lopez';
   //var fullName = firstName + lastName;
   //var fullName = firstName + ' ' + lastName;
-  String fullName = "$firstName $lastName";
+  //String fullName = "$firstName $lastName";
+  String fullName = "${firstName + ' ' + lastName}";
 
   print(fullName);
 
@@ -102,5 +118,7 @@ void main(List<String> args) {
 
   var food1 = (money > 50 && FndMoney > 99) ? 'goru' : 'murgi';
   print(food1);
-  
+
+  // LIterals
+  //amra jokhon kono variable er value add kri oi value tai holo litals , seta string ,int , bool, double jkono type er value hote pare;
 }
