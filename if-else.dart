@@ -11,16 +11,16 @@ void main(List<String> args) {
   } else if (mark >= 0 && mark <= 33) {
     print('F');
   } else {
-    print('invaild number');
+    print('invalid number');
   }
 
   /// switch case
 
-  String colour = 'red';
+  String color = 'red';
 
-  switch (colour) {
+  switch (color) {
     case 'blue':
-      print('colour is blue');
+      print('color is blue');
       break;
     case 'green':
       print('colour is green');
@@ -57,10 +57,10 @@ void main(List<String> args) {
       print(ans);
       break;
     case '/':
-      ans = (a / b).toInt();
+      ans = a ~/ b;
       print(ans);
       break;
     default:
-    print('invaild number');
+    print('invalid number');
   }
 }

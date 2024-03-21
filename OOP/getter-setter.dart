@@ -4,10 +4,10 @@ void main(List<String> args) {
   print(student1.name); // calling default getter
 
  // call and set the value of setter method
-  student1.setParcent = 300.0;
+  student1.setParent = 300.0;
   
   //print the value of getter method
-  print(student1.getParcent);
+  print(student1.getParent);
 }
 
 class Student {
@@ -17,11 +17,11 @@ class Student {
   double percent = -1;
 
   //custom setter , amra kono data send krar jonno ba set krar jonno setter method use kri , setter method a always return type void
-  void set setParcent(double marks) {
+  void set setParent(double marks) {
      percent = (marks / 500) * 100;
   }
   // custom getter, setter theke send kora kono data k get krar jonno amra getter method use kori,getter method e kono parent thisis like () thake na, r getter method always kono kisu return kore thake, r atar return type hoy ata j variable return kore tar j type hoy seta
-  double get getParcent {
+  double get getParent {
     return percent;
   }
 }

@@ -39,7 +39,7 @@ void main(List<String> args) {
   l
   """; //but akhne disse na error krn akhne tripple quates use kora hoice
 
-// //mathmatical operation
+ //mathmatical operation
 
   int onionPrice = 49;
   int orangePrice = 65;
@@ -66,7 +66,7 @@ void main(List<String> args) {
   number1--;
   print(number1);
 
-  //convesion or string interpolation
+  //conversion or string interpolation
 
   String firstName = 'jannifer';
   String lastName = 'lopez';

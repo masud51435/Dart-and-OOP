@@ -1,7 +1,7 @@
 import 'dart:collection';
 
 void main(List<String> args) {
-  //litarals adding map
+  //literals adding map
   //map holo js er akdm object er moto
 
   var myMap = {'name': 'abul', 'age': 15, 'height': '5 feet 7 inch'};
@@ -22,7 +22,7 @@ void main(List<String> args) {
 
 //amra caile addAll diye aksathey joto icca key value add krte pari abr caile akta akta kreo add krte pari.
   map.addAll({'name': 'imam', 'age': 34, 'son': 'liam'});
-  map['favourite'] = 'game';
+  map['favorite'] = 'game';
   print(map);
 
   // print(map.keys);
@@ -52,7 +52,7 @@ void main(List<String> args) {
 
   print(hashMap);
 
-  ////////   hashset r hashmap same to same just hashset er maje duplicate data rakha jay na
+  ///   hashset r hashmap same to same just hashset er maje duplicate data rakha jay na
   ///
   var myHashSet = new HashSet();
 }
