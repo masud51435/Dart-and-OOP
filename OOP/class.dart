@@ -1,4 +1,4 @@
-//aki dhoron er onek gula object create krar jonno class use kora hoy.dart e constructor er nam dite hoy same to same class er j name thake seta, r constructor method e kono return type thake na, normal fuction ba method er moto
+//class is a blueprint for creating object, aki dhoron er onek gula object create krar jonno class use kora hoy.dart e constructor er nam dite hoy same to same class er j name thake seta, r constructor method e kono return type thake na, normal fuction ba method er moto
 
 void main(List<String> args) {
   //class er object create
@@ -33,7 +33,7 @@ class Supporta {
   var address = 'bd';
   var role = 'support web dev';
   //initialize
-  Supporta(this.name, this.address);
+  Supporta( this.name, this.address);
   //Supporta({this.name = "abdul", this.address = 'india'});
 
   //function

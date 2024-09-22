@@ -1,3 +1,6 @@
+//amra jodi kono class er variable er pasa pasi oi class er constructor o inherit kore onno class er maje use korte chai tokhon amader super keyword use kora lge
+
+
 void main(List<String> args) {
   Cycle objCycle = new Cycle(200);
   print(objCycle.color);
@@ -10,7 +13,7 @@ class Bike {
 
   Bike(String rong) {
     this.color = rong;
-    print('this is biye constructor');
+    print('this is bike constructor');
   }
 }
 

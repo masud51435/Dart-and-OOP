@@ -120,5 +120,5 @@ void main(List<String> args) {
   print(food1);
 
   // LIterals
-  //amra jokhon kono variable er value add kri oi value tai holo litals , seta string ,int , bool, double jkono type er value hote pare;
+  //amra jokhon kono variable er value add kri oi value tai holo literals , seta string ,int , bool, double jkono type er value hote pare;
 }

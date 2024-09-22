@@ -6,6 +6,14 @@ void main(List<String> args) {
   //amra jdi jante chai kono list er maje koto gula item ba element ace taile list.length diye dekte pari.
   //print(names.length);
 
+  //amra jodi chai unique list of item ba dupicate item remove korte list theke tahole ai system use korte pari
+
+  List duplicateNumbers = [1, 2, 4, 5, 6, 46, 355, 2, 15, 6, 3, 7, 1];
+  List<int> uniqueNumbers = List.from(Set.from(duplicateNumbers));
+  print(uniqueNumbers);
+  List anotheruniqueItems = duplicateNumbers.toSet().toList();
+  print(anotheruniqueItems);
+
   //amra jdi chai list kono index er item k change krte setao pari
   names[2] = 'riyad';
 
@@ -15,7 +23,7 @@ void main(List<String> args) {
   }
 
   ///index or position in an array or list, index suru hoy 0 theke
-///akhne index of diye dekha jay oi item ta koto number index ba position a ace..amra jdi amn kono item er nam dei jeta list er maje nai taile dekhabe -1,
+  ///akhne index of diye dekha jay oi item ta koto number index ba position a ace..amra jdi amn kono item er nam dei jeta list er maje nai taile dekhabe -1,
   List bookPages = ['hablu', 'dablu', 'tablu', 'mablu', 'tiplu'];
 
   var tabluIndexOf = bookPages.indexOf('tablu');

@@ -1,4 +1,7 @@
 //inheritence holo kono class er maje aki boisisto akadik bar thakte pare , ogula k akadik bar na likhey aktar maje likhey likhey setak oi class er vinno vinno jaygay extrends kore use kora bujay, mane onekta babar sompotti celer pawar moto, inheritence manei holo uttorodikari
+
+
+//kono class er maje onno kono class er value inherit kore ene use korar way kei inheritence bole, like amra babar kas theke kisu boisisto inherit kore peye gasi, atai inheritence,amra parent class ba super class or base class er value inherit kore child class er maje use kori
 import 'father.dart';
 
 void main(List<String> args) {

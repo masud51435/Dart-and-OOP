@@ -1,4 +1,5 @@
 //mixin amra use kori aksathey multiple inheritance er khette, amra ususally akta class e extend kore duita inheritance class use krte pari na, seta krar jonno amra mixin use kori, mixin use kre akadik clss o use kora jay parent class hisebe sub class a
+ // mixin er class er object ba constructor create kora jay na, atake extends kreo use kora jay na, atake onno kono class er sathey with keyword diye use korte hoy, and er vitorer  method gular access er jnno override keyword use krte hoy, mixin er concept e holo code share kora different class er maje 
 void main(List<String> args) {
   Doctor value = Doctor();
   value.clockIn();
@@ -23,6 +24,11 @@ mixin Medical {
 class Doctor extends Emploee with Medical {
   operation() {
     print('c');
+  }
+  @override
+  clockIn() {
+    // TODO: implement clockIn
+    return super.clockIn();
   }
 }
 
