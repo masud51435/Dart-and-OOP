@@ -12,7 +12,7 @@ void main(List<String> args) {
   List<int> uniqueNumbers = List.from(Set.from(duplicateNumbers));
   print(uniqueNumbers);
   List anotheruniqueItems = duplicateNumbers.toSet().toList();
-  print(anotheruniqueItems);
+  print(anotheruniqueItems); 
 
   //amra jdi chai list kono index er item k change krte setao pari
   names[2] = 'riyad';
