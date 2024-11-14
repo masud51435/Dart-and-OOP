@@ -43,7 +43,7 @@ void main(List<String> args) {
     i++;
   } while (i <= 5);
 
-  //while loop r do while loop er maje different tmn nai just aktai different while loop er condition jeta deya thake seta jdi match na kore taile code ran hbe na akbaro but do while loop er belay condition match na krleo akbr loop colbei,
+  //while loop r do while loop er maje different tmn nai just aktai different while loop er condition jeta deya thake seta jdi match na kore taile code run hbe na akbaro but do while loop er belay condition match na krleo akbr loop colbei,
 
   ///For loop
   for (var i = 0; i < 10; i++) {
