@@ -3,11 +3,14 @@
 void main(List<String> args) {
   Rect recObj = Rect();
   recObj.draw();
+
+  NewtworkServices networkServices = NewtworkServices();
+  networkServices.getApi();
+  networkServices.postApi();
 }
 
 abstract class Shape {
   void draw();
-
 }
 
 class Rect extends Shape {
@@ -15,5 +18,23 @@ class Rect extends Shape {
   void draw() {
     print('i drawing now');
   }
+}
 
+abstract class BaseApiService {
+  void postApi();
+  void getApi();
+}
+
+class NewtworkServices extends BaseApiService {
+  @override
+  void getApi() {
+    // TODO: implement getApi
+    print('get api called');
+  }
+
+  @override
+  void postApi() {
+    // TODO: implement postApi
+    print('post api called');
+  }
 }
