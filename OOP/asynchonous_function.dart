@@ -2,17 +2,16 @@
 
 // Why Use Asynchronous Functions?
 // Non-blocking Execution:
-
 // Long-running operations like network requests or database queries can take time. If these were run synchronously, the application would freeze until the operation completes.
 // Asynchronous functions allow the rest of your application to continue running while waiting for these operations.
+
 // Efficient Resource Utilization:
-
 // Dart's event loop can continue processing other tasks instead of idly waiting for an operation to finish.
+
 // Simpler Code:
-
 // When combined with async and await, asynchronous programming becomes easier to read and maintain compared to traditional callback-based approaches.
-// async and await
 
+// async and await
 // async:
 // Used to mark a function as asynchronous.
 // Indicates that the function might contain asynchronous operations.
