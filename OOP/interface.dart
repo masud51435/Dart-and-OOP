@@ -6,6 +6,10 @@ void main(List<String> args) {
   carObj.move();
   carObj.stop();
   carObj.going();
+
+  Bike bikeObj = new Bike();
+  bikeObj.move();
+  bikeObj.stop();
 }
 
 class Vehicle {
@@ -21,6 +25,18 @@ class Vehicle {
 class Bus {
   going() {
     print('bus is going');
+  }
+}
+
+class Bike implements Vehicle {
+  @override
+  move() {
+    print("bike is moving");
+  }
+  
+  @override
+  stop() {
+    print('bike is stop');
   }
 }
 
