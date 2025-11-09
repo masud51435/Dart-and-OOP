@@ -7,7 +7,7 @@ void main(List<String> args) {
 }
 
 //made inheritance class
-class Emploee {
+class Employee {
   takeTemp() {
     print('a');
   }
@@ -21,7 +21,7 @@ mixin Medical {
 }
 
 //class 1
-class Doctor extends Emploee with Medical {
+class Doctor extends Employee with Medical {
   operation() {
     print('c');
   }
@@ -33,11 +33,11 @@ class Doctor extends Emploee with Medical {
 }
 
 //class 2
-class Nurse extends Emploee with Medical {
+class Nurse extends Employee with Medical {
   takeCarePatient() {
     print('c');
   }
 }
 
 //class 3
-class BarTender extends Emploee {}
+class BarTender extends Employee {}

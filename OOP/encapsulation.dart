@@ -1,25 +1,25 @@
 //amra jokhon kono class create kori tar maje dui dhoron er data amra likhi akta public var and other is private var, ai private var k amra caileo ai class er baire theke access nite pari na, so ai private var er access er jonno akta special method use kora hoy atakei encapsulation bole ,
 
-import 'encapsulation_ex1.dart';
 
-void main(List<String> args) {
-  Person person1 = Person(20, "abdul");
-  person1.displayDetails();
+// wrapping data(variables) and method into a single unit(class) and controlling access to them, this is known as encapsulation,
 
-  People people1 = People('abdullah', 'human', 'abdullah@gmail.com', 20);
-  people1.setPeopleName = "ahmed";
-  people1.getPeopleData();
-  print(people1.peopleName);
+class BankAccount {
+  double _balance = 0; //private variable
+
+  void deposit(double amount) => _balance += amount;
+
+  void withdraw(double amount) => _balance -= amount;
+
+   double get balance => _balance;
 }
 
-class Person {
-  int age;
-  String name;
+// here the _balance variable is hidden(encapsulated) in the class, so it can not changed directly , only via the provided methods. encapsulation hidden data and controls access to it.
 
-  Person(this.age, this.name);
+void main(List<String> args) {
+  BankAccount bankAccount = BankAccount();
+  bankAccount.deposit(1000);
+  print(bankAccount.balance);
 
-  //method to display the person details
-  void displayDetails() {
-    print('Name: $name, Age: $age');
-  }
+  bankAccount.withdraw(500);
+  print(bankAccount.balance);
 }

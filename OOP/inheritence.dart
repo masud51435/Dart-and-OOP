@@ -3,6 +3,9 @@
 
 //kono class er maje onno kono class er value inherit kore ene use korar way kei inheritence bole, like amra babar kas theke kisu boisisto inherit kore peye gasi, atai inheritence,amra parent class ba super class or base class er value inherit kore child class er maje use kori
 
+
+// inheritance means it's allow to pass data form one class to another class, from the parent class to the child class.
+
 import 'father.dart';
 
 void main(List<String> args) {
